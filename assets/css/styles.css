@@ -1,0 +1,11 @@
+/* element selectors */
+a {
+    text-decoration: none;
+}
+
+/* class selectors */
+.display-none {
+    display: none;
+}
+
+/* id selectors */
