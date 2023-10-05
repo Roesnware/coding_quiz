@@ -1,4 +1,16 @@
 /* element selectors */
+:root {
+    --dark-grey: #0D0D0D;
+    --grey: #0D0D0D;
+    --dark-green: #022601;
+    --green: #308C36;
+    --light-green: #4BBF52;
+}
+
+body{
+    background-color: var(--dark-grey);
+}
+
 a {
     text-decoration: none;
 }
@@ -8,4 +20,27 @@ a {
     display: none;
 }
 
+.container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
 /* id selectors */
+#hero {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px #;
+}
