@@ -36,6 +36,9 @@ h1 {
     display: flex;
     height: 100vh;
     width: 100vw;
+    margin: 0 auto;
+    padding: 2.5rem;
+    align-items: center;
 }
 
 .flex-column {
@@ -54,11 +57,24 @@ h1 {
     justify-content: center;
 }
 
+.button {
+    
+}
+
 /* id selectors */
 #hero {
+    font: 800 5rem Arial;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px var(--light-green);
-    font-size: 5rem;
+    font-size: 8.5rem;
     padding-left: 7rem;
     padding-right: .6rem;
+}
+
+#header-end-icon {
+    padding-left: .5rem;
+}
+
+#header-start-icon {
+    padding-right: .5rem;
 }
