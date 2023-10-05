@@ -76,13 +76,16 @@ br {
     color: var(--green);
     border-radius: 1rem 1rem 1rem 1rem;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .button:hover {
     cursor: pointer;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    box-shadow: 0 0.3rem 1rem 0 var(--dark-green);
+    box-shadow: 0 0.2rem .4rem 0 var(--dark-green);
+    background-color: var(--green);
+    color: var(--grey);
 }
 
 /* id selectors */
