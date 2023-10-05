@@ -83,7 +83,7 @@ br {
     cursor: pointer;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    box-shadow: 0 0.2rem .4rem 0 var(--dark-green);
+    box-shadow: 0 0.2rem .2rem 0 var(--dark-green);
     background-color: var(--green);
     color: var(--grey);
 }
